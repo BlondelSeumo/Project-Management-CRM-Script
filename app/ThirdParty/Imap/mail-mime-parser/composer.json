@@ -1,0 +1,5 @@
+{
+    "require": {
+        "zbateson/mail-mime-parser": "^1.2"
+    }
+}

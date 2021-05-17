@@ -1,0 +1,180 @@
+$white: #FFF;
+$theme-color: #83c340;
+$theme-color-focus: #75ae37;
+$theme-color-dark: #689b31;
+
+.sidebar-scroll, #timeline .post-content .post-date span {
+    background: $theme-color;
+}
+
+.sidebar-menu {
+    li {
+        a{
+            color: rgba(255,255,255,.8);
+            &:active, &:hover, &:focus{
+                color: $white !important;
+                background-color: rgba(255,255,255,.1);
+            }
+        }
+
+        ul {
+            li {
+                a {
+                    color: rgba(255,255,255,.8);
+                    &:hover {
+                        color: $white;
+                        background-color: rgba(255,255,255,.1);
+                    }
+                }
+            }
+        }
+    }
+
+    li.active {
+        > a {
+            color: $white !important;
+            background-color: rgba(255,255,255,.2);
+        }
+    }
+}
+
+.sidebar-toggled{
+    .sidebar-menu{
+        li{
+            &:hover{
+                background-color: $theme-color;
+            }
+        }
+    }
+}
+
+.nav-tabs {
+    li {
+        a{
+            &:hover, &:focus, &:active {
+                color: $theme-color !important;
+            } 
+        }
+        .active, &.active {
+            color: $theme-color !important;
+            border-color: $theme-color !important;
+        }
+
+        &:not(.title-tab):after{
+            background-color: $theme-color;
+        }
+    }
+}
+
+.list-group-item.active {
+    background: $theme-color;
+    border-color: $theme-color;
+
+    &:focus, &:hover {
+        background: $theme-color;
+        border-color: $theme-color;
+    }
+}
+
+.btn-primary {
+    background-color: $theme-color;
+    border-color: $theme-color;
+    &:hover, &:active, &:focus {
+        background-color: $theme-color-focus;
+        border-color: $theme-color-focus;
+        color: $white;
+    }
+}
+
+.bg-success {
+    background-color: $theme-color-focus !important;
+}
+
+a {
+    color: $theme-color-focus;
+
+    &:hover, &:focus, &:active {
+        color: $theme-color-dark;
+    }
+}
+
+.circle-done{
+    color: $theme-color;
+}
+
+.app-alert {
+    &.alert-success {
+        background-color: $theme-color-focus;
+        color: #fff;
+    }
+}
+
+.bg-dark-success {
+    background: $theme-color-dark;
+}
+
+.dataTable tbody tr.active {
+    td, &:hover td {
+        background: $theme-color !important;
+    }
+}
+
+td{
+    &.dropdown-option button {
+        &:hover {
+            background: $theme-color;
+            border-color: $theme-color;
+        }
+    }
+}
+
+.select2-results .select2-highlighted {
+    background-color: $theme-color;
+}
+
+.datepicker table tr td {
+    &.active.active {
+        background: $theme-color;
+        border-color: $theme-color;
+
+        &:hover {
+            background: $theme-color;
+            border-color: $theme-color;
+        }
+    }
+
+    span.active {
+        &.active, &:hover.active {
+            background: $theme-color;
+            border-color: $theme-color;
+        }
+
+        &.disabled {
+            &.active, &:hover.active {
+                background: $theme-color;
+                border-color: $theme-color;
+            }
+        }
+
+        &.active:hover {
+            background: $theme-color;
+            border-color: $theme-color;
+        }
+    }
+}
+
+.atwho-view .cur, .note-hint-group .active, .note-hint-item:hover {
+    background-color: $theme-color !important;
+}
+
+.sidebar-scroll{
+    &::-webkit-scrollbar-thumb {
+        background: rgba(117, 174, 55, 0.4);
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(117, 174, 55, 0.6);
+    }
+    &::-webkit-scrollbar-thumb:active {
+        background: rgba(117, 174, 55, 0.6);
+    }
+}

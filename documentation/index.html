@@ -1,0 +1,1427 @@
+<!DOCTYPE html>  
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="RISE - Ultimate Project Manager is the best way to manage your projects, clients and team members. You can easily collaborate with your team and monitor your work.">
+        <meta name="author" content="fairsketch">
+
+        <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png" />
+
+        <title>RISE - Ultimate Project Manager - The ultimate solution of project, client and team </title>
+
+        <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css" media="screen">
+        <link rel="stylesheet" href="assets/js/perfect-scrollbar/perfect-scrollbar.css" media="screen">
+        <link rel="stylesheet" href="assets/css/font.css" media="screen">
+        <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
+        <script src="assets/js/jquery-1.11.3.min.js"></script>
+        <script src="assets/css/bootstrap/js/tether.min.js"></script>
+        <script src="assets/css/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+        <script src="assets/js/helper.js"></script>
+    </head>    
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="default-navbar">
+            <div class="navbar-header clearfix">
+                <span class="navbar-brand pull-left"><img class="dashboard-image" src="assets/images/default-stie-logo.png"></span>
+                <span class="navbar-title pull-left">RISE - Ultimate Project Manager</span>
+                <div class="live-demo-btn pull-right">
+                    <a href="http://codecanyon.net/item/rise-ultimate-project-manager/full_screen_preview/15455641" class="btn btn-primary btn-md" target="_blank">Live Demo</a> 
+                </div>
+            </div>
+        </nav>
+
+        <div id="content" class="box">
+            <div id="sidebar" class="box-content ani-width">
+                <div id="sidebar-scroll">
+                    <ul class="" id="sidebar-menu">
+                        <li class="main"><a href="#quick_start_guide" title="Quick Start Guide">Getting Started</a></li>
+                        <li class="main"><a href="#installation" title="Installation">Installation</a></li>
+                        <li class="main"><a href="#features" title="Features">Features</a></li>
+                        <li class="main"><a href="#dashboard" title="Dashboard">Dashboard</a></li>
+                        <li class="main"><a href="#clients" title="Clients">Clients</a></li>
+                        <li class="main"><a href="#projects" title="Projects">Projects</a></li>
+                        <li class="main"><a href="#estimates" title="Estimates">Estimates</a></li>
+                        <li class="main"><a href="#estimate_requests" title="Estimate requests">Estimate requests</a></li>
+                        <li class="main"><a href="#invoices_payments" title="Invoices & Payments">Invoices & Payments</a></li>
+                        <li class="main"><a href="#expenses" title="Expenses">Expenses</a></li>
+                        <li class="main"><a href="#support_tickets" title="Support Tickets">Support Tickets</a></li>
+                        <li class="main"><a href="#team_members" title="Team Members">Team Members</a></li>
+                        <li class="main"><a href="#messaging" title="Messaging">Messaging</a></li>
+                        <li class="main"><a href="#events_notes" title="Events & Notes">Events & Notes</a></li>
+                        <li class="main"><a href="#timeline" title="Timeline">Timeline</a></li>
+                        <li class="main"><a href="#time_cards" title="Time Cards">Time Cards</a></li>
+                        <li class="main"><a href="#leave" title="Leave">Leave</a></li>
+                        <li class="main"><a href="#announcements" title="Announcements">Announcements</a></li>
+                        <li class="main"><a href="#settings" title="Settings">Settings</a></li>
+                        <li class="main"><a href="#cron_job" title="Cron Job">Cron Job</a></li>
+                        <li class="main"><a href="#notifications" title="Notifications">Notifications</a></li>
+
+                        <li class="expand main">
+                            <a href="#" title="Integration">Integration</a>
+                            <ul>
+                                <li><a href="#google_drive" title="Google Drive">Google Drive</a></li>
+                                <li><a href="#google_calendar" title="Google Calendar">Google Calendar</a></li>
+                                <li><a href="#imap" title="IMAP">IMAP</a></li>
+                                <li><a href="#push_notification" title="Push notification">Push notification</a></li>
+                                <li><a href="#slack" title="Slack">Slack</a></li>
+                                <li><a href="#bitbucket" title="Bitbucket">Bitbucket</a></li>
+                                <li><a href="#github" title="GitHub">GitHub</a></li>
+                            </ul>                
+                        </li>
+
+                        <li class="main"><a href="#help_and_support" title="Help & Support">Help & Support</a></li>
+                        <li class="main"><a href="#upgrading_guide" title="Upgrading Guide">Upgrading Guide</a></li>
+                        <li class="main"><a href="#application_structure" title="Application Structure">Application Structure</a></li>
+                        <li class="main"><a href="#language" title="Language">Language</a></li>
+                        <li class="main"><a href="#development" title="Development">Development</a></li>
+                        <li class="main"><a href="#thanks" title="Thanks">Thanks</a></li>
+                    </ul>
+                </div>          
+            </div>          
+
+            <div id="page-container" class="box-content">
+
+                <div class="scrollable-page" id="scrollable-page">
+                    <div id="page-content" class="clearfix">
+
+
+                        <section id="quick_start_guide">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Quick Start Guide</h1>
+                                </div>
+                                <div class="p20">
+                                    <div>
+                                        Once you have downloaded the application,&nbsp;<a href="#installation">install</a> the application on your server and sign in to your dashboard.&nbsp;</div>
+                                    <ul>
+                                        <li>
+                                            Add your customers by going to the <a href="#clients">Clients</a> view. You can access any view by clicking on the menus from the left sidebar.</li>
+                                        <li>
+                                            Add your projects from the <a href="#projects">Projects</a> view. Once you have created any project you are ready to add tasks, mile stones, files, comments, notes and invoices to the project. If you would like to track the time of your project, simply you can use the start timer button located in each project details view.</li>
+                                        <li>
+                                            Do you have a team and you want to collaborate with them? You can invite or add manually your team members from the <a href="#team_members">Team members</a> view. Once you&#39;ve added the team members then you can add the members in your projects, assign them to tasks, send <a href="#messaging">messages</a>, <a href="#timeline">share</a> ideas and files, store their personal, social and work information, etc.</li>
+                                        <li>
+                                            Do you want to track <a href="#time_cards">attendance</a> or daily time reporting of your team members? This application makes easy to time reporting. The team members can report the daily time cards by using the <strong>Clock In </strong>and <strong>Clock Out</strong> button located in dashboard. They can also submit the <a href="#leave">leave</a> applications for their absences.</li>
+                                        <li>
+                                            You can create invoices and send the invoices to your <a href="#clients">clients</a> from the <a href="#invoices_payments">Invoices</a> view. Make sure you have configured your&nbsp;<a href="#settings">email settings</a>&nbsp; before sending any email.</li>
+                                        <li>
+                                            Do you interested to provide a smart support to your customers? There is a client portal in this application. &nbsp;Your clients can login to the client portal and submit their support tickets. You can easily manage the tickets from the <a href="#support_tickets">Support tickets</a> view.</li>
+                                        <li>
+                                            To make this application more suitable to you please have a look at the&nbsp;<a href="#settings">Settings</a>&nbsp;page and change the settings according to your needs.&nbsp;</li>
+                                    </ul>
+                                    <p>
+                                        To learn more about the application please check all parts of this documentation. In this documentation, we&#39;ll describe different parts according to the screenshots.</p>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section id="installation">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Installation</h1>
+                                </div>
+                                <div class="p20">
+                                    <h5 class="mt0">
+                                        Server Requirements</h5>
+                                    <ul style="margin: 18px 0px; padding-right: 0px; border: 0px; outline: 0px; font-size: 13px; font-family: 'Open Sans', Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                                        <li>
+                                            PHP v7.3+</li>
+                                        <li>
+                                            MariaDB/ MySQL</li>
+                                        <li>
+                                            MySQLi PHP Extension</li>	
+                                        <li>
+                                            Latest cURL PHP Extension</li>
+                                        <li>
+                                            Latest mbstring PHP Extension</li>
+                                        <li>
+                                            Latest OpenSSL PHP Extension</li>
+                                        <li>
+                                            Latest GD PHP Extension</li>
+                                        <li>
+                                            Latest intl PHP Extension</li>
+                                        <li>
+                                            Latest json PHP Extension</li>
+                                        <li>
+                                            Latest mysqlnd PHP Extension</li>
+                                        <li>
+                                            Latest xml PHP Extension</li>
+                                        <li>
+                                            zlib.output_compression should be disabled in php.ini</li>
+                                        <li>
+                                            date.timezone setting in php.ini (Set any timezone in date.timezone. Ex: date.timezone = "America/New_York" )</li>
+
+                                    </ul>
+                                    <h5>
+                                        Quick Installation Guide</h5>
+                                    <ul style="padding-right: 0px; margin: 18px 0px; border: 0px; outline: 0px; font-size: 13px; font-family: 'Open Sans', Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            <span style="font-weight: inherit;">Unzip the </span><b>RISE-Ultimate-Project-Manager.zip&nbsp;</b><span style="font-weight: inherit;">which you have downloaded from the Envato Market.</span></li>
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            Upload the files to your sever using any FTP client.</li>
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            The file structure should be look like this:
+                                            <ul>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /app</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /assets</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /documentation</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /files</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /install</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /system</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /updates</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /writable</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    /index.php</li>
+                                            </ul>
+                                        </li>
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            Create a <strong>MySql</strong> Database via your web hosting providers Control Panel (e.g.&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">cPanel</span>). Once you have created the database, remember the following information:
+                                            <ul>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    Database Name</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    Database Username</li>
+                                                <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                                    Database Password</li>
+                                            </ul>
+                                        </li>
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            Open your web browser and enter the url (<strong>http://yourdomain.com </strong>or&nbsp;<strong>http://yourdomain.com/foldername</strong>) in the address bar.</li>
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            If everything is ok, you should get the installation page.</li>
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            Follow the instructions and click on the&nbsp;<strong>Next </strong>button. Then enter the database details which you have collected earlier. Finally, enter your name, email and password which will be required to login in the application. Then click on the&nbsp;<strong>Finish </strong>button and wait a while. The system will create necessary tables in database, files and configuration.</li>
+                                        <li style="margin: 0px 0px 0px 36px; padding: 4px 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+                                            That&#39;s all! After completing the installation delete the installation folder and login to your dashboard.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="features">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Features</h1>
+                                </div>
+                                <div class="p20">
+                                    <ul>
+                                        <li>
+                                            Easily accessible UI</li>
+                                        <li>
+                                            Dashboard customization</li>
+                                        <li>
+                                            Project management</li>
+                                        <li>
+                                            Client management</li>
+                                        <li>
+                                            Team management</li>
+                                        <li>
+                                            Team conversation</li>
+                                        <li>
+                                            Private messaging with team members and clients</li>
+                                        <li>
+                                            Tasks, milestones, gantt, notes, files and customer feedback</li>
+                                        <li>
+                                            Project timesheet and time tracker</li>
+                                        <li>
+                                            Drag and drop facility for files</li>
+                                        <li>
+                                            Custom Fields</li>
+                                        <li>
+                                            Quick add from topbar</li>
+                                        <li>
+                                            Custom language selection for all user</li>
+                                        <li>
+                                            Web and email notifications</li>
+                                        <li>
+                                            Push notification</li>
+                                        <li>
+                                            Client portal</li>
+                                        <li>
+                                            All reports of any client in a single page</li>
+                                        <li>
+                                            Informative profile page for client contacts</li>
+                                        <li>
+                                            Estimate requests</li>
+                                        <li>
+                                            Estimates</li>
+                                        <li>
+                                            Support tickets</li>
+                                        <li>
+                                            Email piping for tickets</li>
+                                        <li>
+                                            Invoice management</li>
+                                        <li>
+                                            Invoice pdf, online payment (PayPal and Stripe) </li>
+                                        <li>
+                                            Expense & payments report</li>
+                                        <li>
+                                            Custom role (permissions) for team members</li>
+                                        <li>
+                                            Event calendar</li>
+                                        <li>
+                                            Private notes</li>
+                                        <li>
+                                            Customizable email templates</li>
+                                        <li>
+                                            Timecard/attendance management</li>
+                                        <li>
+                                            IP restriction for timecard entry</li>
+                                        <li>
+                                            Leave management</li>
+                                        <li>
+                                            Team member's details view</li>
+                                        <li>
+                                            Announcement/notice management</li>
+                                        <li>
+                                            Report printing and export</li>
+                                        <li>
+                                            Dynamic graph and visual report</li>
+                                        <li>
+                                            Activity logs for projects</li>
+                                        <li>
+                                            Install updates in a click</li>
+                                        <li>
+                                            Enable/Disable modules</li>
+                                        <li>
+                                            Help & Support</li>
+                                        <li>
+                                            Google Drive Integration</li>
+                                        <li>
+                                            Bitbucket Integration</li>
+                                        <li>
+                                            GitHub Integration</li>
+                                        <li>
+                                            Fully responsive on devices</li>
+                                        <li>
+                                            Codeigniter 4.0.4</li>
+                                        <li>
+                                            Bootstrap 5</li>
+                                        <li>
+                                            And more...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="dashboard">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Dashboard</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can create or customize your dashboard as like as you want.</p>
+                                    <p>
+                                        <img alt="dashboard-create" src="assets/images/dashboard/dashboard-create.jpg"></p>
+                                    <p>Create a new custom dashboard using the <strong>Add new dashboard</strong> button from the dropdown in your default dashboard. </p>
+                                    <h5>
+                                        Customize dashboard</h5>
+                                    <p>
+                                        <img class='w100p' alt="dashboard-edit" src="assets/images/dashboard/dashboard-edit.jpg"></p>
+                                    <ol>
+                                        <li>
+                                            There has several <strong>widgets</strong> for your dashboard. You can drag the widgets to dashboard editing rows from here.</li>
+                                        <li>
+                                            You can add as many rows as you want with desired columns by clicking this button.</li>
+                                        <li>
+                                            If you want to see the <strong>preview</strong> of the widget, you can simply click on this button.</li>
+                                        <li>
+                                            To remove the entire row, use this button. The widgets on the deleted row will be back to the widgets container. So, you can use those widgets again if you want.</li>
+                                        <li>
+                                            If you want to save the dashboard without leaving the editing panel, you can use this button.</li>
+                                        <li>
+                                            This button will save the dashboard and move you to your newly created/edited dashboard.</li>
+                                    </ol>
+                                    <h5>
+                                        Dashboards list</h5>
+                                    <p>
+                                        <img class='w100p' alt="dashboard-list" src="assets/images/dashboard/dashboard-list.jpg"></p>
+                                    <ol>
+                                        <li>
+                                            Quick navigation for your dashboards containing selected colors.</li>
+                                        <li>
+                                            This is your dashboards list. Please note that, the dashboards here are sortable. You can easily move up/down them except Default dashboard.</li>
+                                    </ol>
+                                    <h5>
+                                        Extras</h5>
+                                    <p>If you'll lost control or access to your selected widget(s), then those will show like the images below.</p>
+                                    <ul class="google-drive-list">
+                                        <li>
+                                            In view mode. <br />
+                                            <img class="w100p" alt="dashboard-error-view" src="assets/images/dashboard/dashboard-error-view.jpg"></li>
+                                        <li>
+                                            In edit mode. <br />
+                                            <img class="w100p" alt="dashboard-error-edit" src="assets/images/dashboard/dashboard-error-edit.jpg"></li>
+                                    </ul>
+                                    <h5>
+                                        Top navigation bar</h5>
+                                    <p>
+                                        <img class='w100p' alt="topbar" src="assets/images/dashboard/topbar.jpg"></p>
+                                    <ol>
+                                        <li>
+                                            You can toggle your <strong>side navigation bar</strong> with this icon.</li>
+                                        <li>
+                                            This will move you to your <strong>To do</strong> list.</li>
+                                        <li>You can see your <strong>Starred projects</strong> dropdown here.</li>
+                                        <li>You can see your <strong>Starred clients</strong> dropdown here.</li>
+                                        <li>Here is your <strong>Dashboards</strong> dropdown.</li>
+                                        <li>This is the <strong>Quick add</strong> button. You can easily add anything with this like tasks, multiple tasks, events, tickets and more.</li>
+                                        <li>If you want to set a language only for your own, then this will take care. You can also set this from your <strong>Preferences</strong>.</li>
+                                        <li>This is your <strong>Notifications</strong> list.</li>
+                                        <li>This is your <strong>New messages</strong> list.</li>
+                                        <li>This is your <strong>Profile info</strong> dropdown. You can go to your profile, sign out, change password or select custom theme from there.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="clients">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Clients</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can create and manage your customers in clients section.&nbsp;</p>
+                                    <p>
+                                        <img alt="clients-list" src="assets/images/clients-list.jpg"></p>
+                                    <h5>
+                                        List of Clients</h5>
+                                    <ol>
+                                        <li>
+                                            Create new client using the <strong>Add client</strong> button.</li>
+                                        <li>
+                                            Search the existing clients which already added in this application.</li>
+                                        <li>
+                                            To see the details information of the client click on the Company name link.</li>
+                                        <li>
+                                            If you need to edit the client&#39;s information you can do it using the edit button.</li>
+                                        <li>
+                                            To delete the client use the delete button. Once you click on the button, the system will delete the client and you will have a chance to undo the action within 10 seconds. If you don&#39;t undo the action, the system will delete the client permanently&nbsp;and you will not be able to revert the client anyway!</li>
+                                        <li>
+                                            If you want to save the clients list in Excel file, you can simply click on this button and the visible clients in the table will be exported.</li>
+                                        <li>
+                                            If you need to print the clients list, click on the print button.</li>
+                                        <li>
+                                            You can define the rows per page of the table from here.</li>
+                                        <li>
+                                            You can filter the clients with your desired client groups.</li>
+                                    </ol>
+                                    <h5>
+                                        Add new client</h5>
+                                    <ol>
+                                        <li>
+                                            The company name is an organization you or your organization works for. Even if your client is a person you have to add the information as a company. After creating any client you can add contacts of that client.</li>
+                                        <li>
+                                            &nbsp;You can define different currency for different clients. It&#39;s useful when you are working with a foreign client which currency symbol is different from your default currency symbol. By default the invoices of the client will be generated using the default currency symbol if you don&#39;t define any currency symbol with that specific client.</li>
+                                    </ol>
+                                    <h5>
+                                        Client Details</h5>
+                                    <p>
+                                        <img class='w100p' alt="client-details" src="assets/images/client-details.jpg"></p>
+                                    <ol>
+                                        <li>
+                                            The contacts tab contains the list of contacts of the client. You can add one or more contact by clicking on the <strong>Add contact </strong>button.</li>
+                                        <li>
+                                            To send an invitation to any user for the client, use the <strong>Send invitation</strong> button.</li>
+                                        <li>
+                                            Client info tab contains all the informations of the client. You can check/edit the informations from here.</li>
+
+
+                                        <li>
+                                            Projects tab contains all projects of the client.</li>
+                                        <li>
+                                            Invoices tab contains all invoices of the client.</li>
+                                        <li>
+                                            Payments tab contains all payments of the client.</li>
+                                        <li>
+                                            Estimates tab contains all estimates of the client.</li>
+                                        <li>
+                                            Estimate Requests tab contains all estimate requests of the client. Which are requested from client or added by team members.</li>
+                                        <li>
+                                            Tickets tab contains all tickets of the client.</li>
+                                        <li>
+                                            Notes tab contains your personal notes with the client. Please note that, this won't be visible to client.</li>
+                                        <li>
+                                            Files tab contains your personal files with the client. This also won't be visible to client.</li>
+                                        <li>
+                                            Events tab contains all of your events with the client.</li>
+                                        <li>
+                                            To delete any contact from the client, use the delete button. Once you delete any contact you can undo the action within 10 seconds. If you don&#39;t undo the action the contact will be deleted from the client permanently&nbsp;and the contact will not be able to login in the client portal.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="projects">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Projects</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can create and manage your projects here.</p>
+                                    <p>
+                                        <img class='w100p' alt="projects-list" src="assets/images/projects-list.jpg"></p>
+                                    <h5>
+                                        List of Projects</h5>
+                                    <ol>
+                                        <li>
+                                            Create new project using the Add project button.</li>
+                                        <li>
+                                            To see the details information of the project click on the project title link.</li>
+                                        <li>
+                                            By default the deadline color is black. If the deadline expires by today then the deadline color will be changed to orange and all expired deadline will be red color for non-completed projects.</li>
+                                        <li>
+                                            The progress bar indicates the total progression of the project. To generate this progress bar, we calculate the total completed and non-completed tasks. The tasks points are important to calculate the progression.
+                                            <br>
+                                            Example: If there are 10 tasks with 1 point in each tasks, the project's total point will be 10.
+                                            Whenever 5 of the tasks gets completed (Task status = Done), the total progress of the project will be (5*100)/10 = 50%.
+                                            <br>
+                                            Same logic applied on the milestone progress bar.
+                                        </li>
+                                        <li>
+                                            To filter the projects quickly, you can click on the status dropdown. From there, it's possible to see multiple or single status's projects.</li>
+                                        <li>
+                                            You can filter the projects by deadline from here.</li>
+                                        <li>
+                                            You can filter the projects list by the given labels of projects from here.</li>
+                                    </ol>
+                                    <h5>
+                                        Project Details</h5>
+                                    <p>
+                                        <img class='w100p' alt="project-details" src="assets/images/project-details.jpg"></p>
+                                    <ol>
+                                        <li>
+                                            To track the project time you can use the <strong>Start time </strong>button. Once you click on the <strong>Start time</strong> button the timer will be turned on. When you want to stop tracking the time you have to click on the <strong>Stop timer </strong>button.</li>
+                                        <li>
+                                            You can edit, clone or change the status of project from the options dropdown.</li>
+                                        <li>
+                                            The project progression chart represents the total progression of the project.</li>
+                                        <li>
+                                            You can see the total tasks status of the project from the chart.</li>
+                                        <li>
+                                            Activity timeline represents the project history.</li>
+                                        <li>
+                                            To add new member in this project, click on the <strong>Add member</strong> button and select the user.</li>
+                                    </ol>
+                                    <h5>
+                                        Tasks</h5>
+                                    <p>
+                                        <img class='w100p' alt="tasks-list" src="assets/images/tasks-list.jpg"></p>
+                                    <ol>
+                                        <li>Create new task using the Add task button.</li>
+                                        <li>You can use this check-box to make a task as done by instantly.</li>
+                                        <li>Suppose you want to change milestones, assigned to, status or other informations for multiple tasks. Then you can simply use this <strong>Batch update</strong> button. After clicking on this, a selection panel will be appear just beside the tasks. After choosing your desired tasks, click on the Batch update button. Then a modal window will be open. From there, you could select and change which fields you want to change.</li>
+                                        <li>If you want to add multiple tasks without leaving the modal, use <strong>Add multiple tasks</strong> button.</li>
+                                        <li>To change the task status easily, you can use this.</li>
+                                        <li>To see the details information of the task, click on the task title link.</li>
+                                    </ol>
+                                    <h5>
+                                        Milestones</h5>
+                                    <p>
+                                        <img class='w100p' alt="milestones" src="assets/images/milestones.jpg"></p>
+                                    <ol>
+                                        <li>Create new milestone using the <strong>Add milestone</strong> button.</li>
+                                        <li>When all tasks of the milestone will be completed, the milestone's color will be Green.</li>
+                                        <li>If the milestone's deadline is expires by today and there has non-completed tasks with this, then the color will be Red.</li>
+                                        <li>
+                                            The progress bar indicates the total progression of the milestone. To generate this progress bar, we calculate the total completed and non-completed tasks with the associated milestones. The tasks points are important to calculate the progression.<br />
+                                            Here applied the same logic which to generate project's progress bar.</li>
+                                    </ol>
+                                    <h5>
+                                        Customer feedback</h5>
+                                    <p>
+                                        <img class='w100p' alt="customer-feedback" src="assets/images/customer-feedback.jpg"></p>
+                                    <p>You can easily receive customer feedback from your client or you can add a customer feedback to your client.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="estimates">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Estimates</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>You can create and manage estimates from the <strong>Estimate List</strong> under <strong>Estimates</strong> menu. Only admin and allowed team members can access the Estimates page. And the clients can see only their own estimates. Admin can define the role of a member to access the estimates. </p>
+                                    <p>On the estimate's details page, you can add as many <strong>items</strong> as you need like invoices.</p>
+                                    <p>When you sent an estimate to your client, the client or you can accept/reject it. After accepting the estimate, you can easily create invoice or project from the <strong>Actions</strong> dropdown.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="estimate_requests">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Estimate requests</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>In this application, you or your clients can easily create or manage Estimate requests. This is located under <strong>Estimates</strong> menu.</p>
+                                    <p>To create an estimate request, first you've to create a <strong>Form</strong> from <strong>Estiamte Forms</strong> under Estimates menu. You can create as many forms as you want. Which forms you'll mark as <strong>public</strong>, will be available to any user even whose are logged out from the app.</p>
+                                    <p>Then you can request an estimate by selecting your desired form and filling out. Client's also could do the same.</p>
+                                    <p>After getting/submitting estimate request, you can easily add <strong>Estimates</strong> from there or change the status of the estimate request.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="invoices_payments">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Invoices & Payments</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can create and manage your invoices from the <strong>Invoices </strong>menu.</p>
+                                    <p>
+                                        <img class='w100p' alt="invoices" src="assets/images/invoices.jpg"></p>
+                                    <h5>
+                                        List of Invoices</h5>
+                                    <ol>
+                                        <li>
+                                            Create new invoice using the <strong>Add invoice</strong> button.</li>
+                                        <li>
+                                            To see the details information of the invoice click on the invoice id link.</li>
+                                        <li>
+                                            The invoice status represents the different states of the invoice. By default any invoice will be create with <strong>Draft</strong> status. Once you sent the invoice to the client then the invoice status will be changed to <strong>Sent</strong>. Once you receive any payment the invoice status will be changed to <strong>Fully paid</strong> or <strong>Partially Paid</strong>. When you cancelled the invoice then the invoice status will be <strong>Cancelled</strong>.</li>
+                                        <li>
+                                            There could be many invoices with different clients. And the currency of the clients could also be different. With this filter, you can easily see your selected currency's invoices. <br />
+                                            Please note that, this filter won't be visible if there is only a single currency used for all clients.
+                                        </li>
+                                    </ol>
+                                    <h5>
+                                        Invoice Details</h5>
+                                    <p>
+                                        <img class="w100p" alt="invoice-details" src="assets/images/invoice-details.jpg"></p>
+                                    <ol>
+                                        <li>
+                                            To add any item/product in the invoice, click on <strong>Add item</strong> button.</li>
+                                        <li>
+                                            If you want to edit the inserted item, you can click on the edit button of invoice item row.</li>
+                                        <li>
+                                            By clicking on delete button in invoice item row, you can delete the item from the invoice.</li>
+                                        <li>
+                                            To send a <strong>pdf</strong> copy of the invoice to the client, click on the <strong>Email invoice to client</strong> menu.</li>
+                                        <li>
+                                            You can download a <strong>pdf</strong> version of the invoice using the <strong>Download PDF</strong> menu.</li>
+                                        <li>
+                                            If you want to see the invoice pdf instead of download, you can simply use the <strong>Invoice Preview</strong> menu.</li>
+                                        <li>
+                                            You can print the invoice instantly using the <strong>Print invoice</strong> menu.</li>
+                                        <li>
+                                            To edit any information in the invoice click on the <strong>Edit invoice</strong> menu under the <strong>Actions </strong>dropdown.</li>
+                                        <li>
+                                            To make the invoice as cancelled, you can use <strong>Mark as cancelled</strong> menu. After clicking on the menu, a confirmation modal dialog will be appear. If you confirm from there, this action can't be undone and the invoice will mark as cancelled.</li>
+                                        <li>
+                                            By clicking on the <strong>Add payment</strong> button you will get a modal to add payment in the invoice.</li>
+                                        <li>
+                                            You can add <strong>Discount</strong> in the invoice from here. You can add this after/before tax with a fixed amount/percentage.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="expenses">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Expenses</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        In this application the expenses are located in under the <strong>Finance </strong>menu. Click on the <strong>Expenses</strong> menu to access the expenses page. Only admin and allowed team members can access the Expenses page. Admin can define the role of a member to access the expenses.</p>
+                                    <p>
+                                        The expenses view represents a list of expenses. Admin can add new expense categories from the Settings section.&nbsp;</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="support_tickets">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Support Tickets</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        In this application you can create any support ticket on behalf of your client or client can create any support ticket for himself.&nbsp;</p>
+                                    <p>
+                                        <img class='w100p' alt="tickets" src="assets/images/tickets.jpg"></p>
+                                    <h5>
+                                        List of Tickets</h5>
+                                    <ol>
+                                        <li>
+                                            Create new ticket using the <strong>Add ticket </strong>button.</li>
+                                        <li>
+                                            To see the details information of the ticket click on the <strong>ticket title</strong> link.</li>
+                                        <li>
+                                            You can filter the tickets list with the created date from here.</li>
+                                        <li>
+                                            You can filter the tickets list by the given labels of tickets from here.</li>
+                                        <li>
+                                            If you want to see a specific team member's tickets, then you can simply use this filter.</li>
+                                        <li>
+                                            If there is no member assigned with the ticket, you can assign to yourself in this ticket instantly by clicking this option from dropdown menu. Please note that, this will only be visible if there is no member assigned with the ticket and you can assign to the permitted members by editing the ticket anytime.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="team_members">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Team Members</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        Using this application you can manage your team members easily.&nbsp;</p>
+                                    <p>
+                                        <img alt="team" src="assets/images/team-card.jpg"></p>
+                                    <p>
+                                        There are two views for team members.</p>
+                                    <ol>
+                                        <li>
+                                            Whenever you want to add a new team member in this application, you can send invitation to the users email. The user will get an email with the signup instructions.</li>
+                                        <li>
+                                            Instead of sending invitation to the team members, you can add any team member manually, using the <strong>Add member </strong>button.</li>
+                                        <li>
+                                            To view the details of any team member, click on the <strong>view details</strong> link.</li>
+                                    </ol>
+                                    <h5>
+                                        Team member&#39;s Details</h5>
+                                    <p>
+                                        In team member&rsquo;s&nbsp;details view, you can see the details information about any member at a glance.&nbsp;</p>
+                                    <ol>
+                                        <li>
+                                            The <strong>Timeline </strong>tab represents all the posts of the member.</li>
+                                        <li>
+                                            You can view or update the basic information of the member from the <strong>General Info</strong> tab.</li>
+                                        <li>
+                                            Manage social links from the <strong>Social Links</strong> tab.</li>
+                                        <li>
+                                            You can manage the login or access role from the the <strong>Accounts settings&nbsp;</strong>tab.</li>
+                                        <li>
+                                            The<strong> Job info</strong> tab represents the job title, salary and the other job related information.</li>
+                                        <li>
+                                            To see the details list of the member&#39;s attendance, check the <strong>Time cards</strong> tab.</li>
+                                        <li>
+                                            From the <strong>Leave </strong>tab, you can see the details leave history for the team member.&nbsp;</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="messaging">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Messaging</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>	<img alt="message" src="assets/images/message.jpg"></p>
+                                    <p>	All team members can send message to any team member. There are no restrictions to send messages for member to member.&nbsp;</p>
+                                    <p>	Admin can control the messaging rule between team members and clients. From the Client settings, admin can set who can communicate with the clients. Only the selected members will be allowed to send/receive message to/from the clients.</p>
+                                    <p>	Whenever you receive any new message, a notification icon will be appeared in the top right section in the application.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="events_notes">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Events & Notes</h1>
+                                </div>
+                                <div class="p20">
+                                    <h5 class="mt0">
+                                        Events</h5>
+                                    <p>
+                                        The events page represents a calendar with all events. You can add new event in the calendar. Click on the calendar date to add any event on that specific date. You can define different colors for different events to make the view easier&nbsp;to see.</p>
+                                    <p>
+                                        By clicking on any event, you can see the details information about that event.</p>
+                                    <h5>
+                                        Notes</h5>
+                                    <p>
+                                        There are two kinds of note in this application. In dashboard, you can save any quick note in <strong>Sticky Note.&nbsp;</strong>In this application all notes are private (Only you can see your notes).</p>
+                                    <p>
+                                        There are other&nbsp;notes in the Notes page. You can add any private note here. If you add any note in any projects that notes also will be appeared in the notes list.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="timeline">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Timeline</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>	Timeline is a collaboration/conversation area of the team members. All team members can see this view. It&#39;s a best place to share any idea or files among the team members.</p>
+                                    <p>	<img alt="timeline" src="assets/images/timeline.jpg"></p>
+                                    <p>	To share any file you can click on<strong> Upload File</strong> button or drag and drop files on the box. By default all file types are not supported to upload in the application. Admin can set the settings of accepted file formats in <strong>General Settings</strong> section.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="time_cards">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Time Cards</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        The time cards section represents the attendance or total time log of each team members. Any team member can start clock from the dashboard by clicking on <strong>Clock In</strong> button. Once he/she clicks on the <strong>Clock In</strong> button the timer count starts. After clicking on the <strong>Clock Out</strong> button the timer stop counting the time for the team members.&nbsp;</p>
+                                    <p>
+                                        <img alt="timecard" src="assets/images/clockin-out.jpg"></p>
+                                    <p>
+                                        Admin or allowed members can add time manually for any team member.</p>
+                                    <p>
+                                        If admin wants to set any IP restriction for this module then he/she can set the allowed IP addresses in the <strong>IP Restriction Settings</strong> Section Under the <strong>Settings </strong>menu. Admin users are not applicable for this restriction. The admins are allowed to access the time card Clock In/Out from any IP address. The system will check the IP address of the non-admin team members.&nbsp;</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="leave">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Leave</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>	This application allows the leave management facility for the team members. The team member can apply for leave and the admins or superiors can approve/reject the leave application. Admins and superiors can also assign leave for subordinates. Admin can create various leave types from the <strong>Leave types</strong> Setting.</p>
+                                    <p>
+                                        <img class="w100p" alt="leave" src="assets/images/leave.jpg"></p>
+                                    <ol>
+                                        <li>Apply a new leave using the <strong>Apply leave</strong> button.</li>
+                                        <li>Admins or allowed members can assign leave for team members using the <strong>Assign leave</strong> button.</li>
+                                        <li>To see the details information of the leave, click on this icon. From there, allowed members can approve/reject the leave. Please note that, once it'll be approved/rejected this operation can't be undone or change.</li>
+                                        <li>
+                                            All applications tab contains all of the leave applications.</li>
+                                        <li>
+                                            Summary tab contains the yearly summery chart of approved leave applications.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="announcements">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Announcements</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        This application provides&nbsp;the announcement publishing feature. The admins and selected team members can create new announcement for team members and/or clients.&nbsp;</p>
+                                    <p>
+                                        The published announcement will be appeared&nbsp;in dashboard of each user. Once the user clicks on the announcement then it will not be appear&nbsp;in dashboard again. But the users can see the announcement from the <strong>Announcements </strong>menu anytime.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="settings">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Settings</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        The application has various types of settings to make suitable according to your work. Here are some basic introductions about the settings.</p>
+                                    <p>
+                                        <img alt="settings" src="assets/images/settings.jpg"></p>
+                                    <h5>
+                                        General Settings</h5>
+                                    <ul>
+                                        <li>
+                                            <strong>General: </strong>In this section, you can change the application logo, title, localization settings, file type restriction and the item purchase code.</li>
+                                        <li>
+                                            <strong>Email: </strong>This setting is for out-going emails. All emails will be sent using the settings. You can use either the default mail sending method of your server or SMTP.</li>
+                                        <li>
+                                            <strong>Email templates:</strong> The application has some default email templates which are using to send different emails. You can change the appearance of the email templates as you like.</li>
+                                        <li>
+                                            <strong>Modules:</strong> You can enable/disable your desired modules from here.</li>
+                                        <li>
+                                            <strong>Cron Job: </strong>This setting has a broad description. Please check <a href="#cron_job" title="Cron Job">this</a>.</li>
+                                        <li>
+                                            <strong>Notifications: </strong>This setting has a broad description. Please check <a href="#notifications" title="Notifications">this</a>.</li>
+                                        <li>
+                                            <strong>Integration: </strong>You can integrate some cool APIs from here. Please check integration tab from menu for explained description.</li>
+                                        <li>
+                                            <strong>Updates: </strong>Please check <a href="#upgrading_guide" title="Upgrading guide">this</a> for upgrading guide.</li>
+                                    </ul>
+
+                                    <h5>Access Permission</h5>
+                                    <ul>
+                                        <li>
+                                            <strong>Roles:</strong> It's a setting to set different access permission for different users. To add any role click on the <strong>Add role</strong> button. Once you create any role then you can set permission to the role by clicking on the role. You&#39;ll see different types of access permission and you can choose in your own way. After defining&nbsp;the roles you can set the role to any team member. Each team member can have one role at a time. By default all team members has the <strong>Team Member</strong> role. To change the role of any team member, go to the team member&rsquo;s&nbsp; details view and click on the <strong>Account settings</strong> tab and choose your&nbsp;desired role for the member.</li>
+                                        <li>
+                                            <strong>Team</strong>: You can create teams with your team members. So, you can assign role on several team(s), share events and much more.</li>
+                                        <li>
+                                            <strong>IP Restriction</strong>: If you would like to prevent accessing the Clock In/Clock Out of Time card from unauthorized IP, you can add authorized IP address here.</li>
+                                    </ul>
+
+                                    <h5>Client</h5>
+                                    <ul>    
+                                        <li>
+                                            <strong>Client permissions</strong>: In this area you can control the client login/signup and the message sending rule between client and team members.</li>
+                                        <li>
+                                            <strong>Client groups</strong>: Here you can create client groups. So, you can easily choose your desired client groups with your clients.</li>
+                                    </ul>
+
+                                    <h5>Setup</h5>
+                                    <ul>
+                                        <li>
+                                            <strong>Custom fields</strong>: You can create custom fields for various items as your wishes. There has 8 types of field type. You can also give permissions to them that, if they will show on tables or not and visibility to users. Then they will appear on add/edit item screens and tables according to the permissions.</li>
+                                        <li>
+                                            <strong>Tasks</strong>: You can create task status from here. Then you can select the task status from the add/edit task screen.</li>
+                                        <li>
+                                            <strong>Events</strong>: You can enable Google Calendar API for per users from here.</li>
+                                        <li>
+                                            <strong>Leave types</strong>: You can create various leave types from here.&nbsp;</li>
+                                        <li>
+                                            <strong>Tickets</strong>: You can create various ticket types and modify ticket settings from here. For IMAP integration, please check <a href="#imap" title="IMAP Integration">this</a>.</li>
+                                        <li>
+                                            <strong>Expense Categories:</strong> There could be various expense types in your business; you can add the types here.</li>
+                                        <li>
+                                            <strong>Invoice:</strong> There has some invoice settings to make things ease. You can change your invoice logo, invoice style, invoice reminders and more.</li>
+                                        <li>
+                                            <strong>Payment Methods</strong>: To receive any payment through invoice the payment methods are required. Add your required payment methods in this section.</li>
+                                        <li>
+                                            <strong>Company</strong>: You can setup your company informations from here. Then it'll be available on Invoices and Estimates.</li>
+                                        <li>
+                                            <strong>Taxes</strong>: In this application the taxes are using in Invoices and Estimates. You can define different taxes name and percentage here.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="cron_job">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Cron Job</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        Please follow these steps to enable cron job in your cPanel:</p>
+                                    <ol class="google-drive-list">
+                                        <li>
+                                            Go to your <strong>cPanel</strong> and locate <strong>Cron Jobs</strong> under <strong>ADVANCED</strong> tab. <br />
+                                            <img alt="cron_job_1" src="assets/images/cron_job/1.png"></li>
+                                        <li>
+                                            You'll find a form like this. <br />
+                                            <img alt="cron_job_2" src="assets/images/cron_job/2.png"></li>
+                                        <li>
+                                            Select which <strong>intervals</strong> of Cron Job you want.</li>
+                                        <li>
+                                            Go to RISE Settings>Cron Job. <br />
+                                            <img alt="cron_job_3" src="assets/images/cron_job/3.png"></li>
+                                        <li>
+                                            Copy the required command from there and add to the form. </li>
+                                    </ol>
+
+                                    <p><strong>Note: </strong> Cron Job is must necessary if you enable anything which contains a tooltip "Cron Job is required for this action!".</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="notifications">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Notifications</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can customize the app notifications. Please have a look at Settings>Notification setting. There are options for email and web notification for all events. You can enable both or as you prefer. </p>
+                                    <p>
+                                        <img alt="rise-notifications" src="assets/images/notifications.png"></p>
+                                    <div class="alert alert-warning" id='notifications-not-working'>Notifications are not working?</div>
+                                    <p>
+                                        Please make sure you are using latest version of <a href="https://www.openssl.org/source/" target="_blank">OpenSSL.</a> You can check the OpenSSL version and released date in your server from phpinfo. If you don't know how to check the phpinfo just add a php file (phpinfo.php) in your server inside the RISE directory:
+                                        <textarea style='display:block; height: 60px; width: 300px; resize: none;'>
+    <?php 
+     phpinfo(); 
+    ?>
+                                        </textarea>
+                                        Then browse the file from your browser. Like as http://yourdomain.com/phpinfo.php. If you can't update the OpenSSL, please contact to your hosting service provider.
+                                    </p>
+                                    <p>Please also keep in mind that you'll not get notifications for your own actions.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="google_drive">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Google Drive Integration</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can integrate <strong>Google Drive API</strong> as an extra cloud storage, from Settings&gt;Integration&gt;Google Drive. There has some easy steps.</p>
+                                    <ol class="google-drive-list">
+                                        <li>
+                                            Go to the <a href="https://console.developers.google.com" target="_blank">Google API Console</a> and Create a <strong>project</strong>. <br />
+                                            <img alt="google_drive_1" src="assets/images/integration/google_drive/1.png"></li>
+                                        <li>
+                                            Select your project (1) and click on <strong>Enable APIs and Services</strong> (2). <br />
+                                            <img alt="google_drive_2" src="assets/images/integration/google_drive/2.png"></li>
+                                        <li>
+                                            Search for <strong>Google Drive API</strong> and select that. <br />
+                                            <img alt="google_drive_3" src="assets/images/integration/google_drive/3.png"></li>
+                                        <li>
+                                            Enable the API. <br />
+                                            <img alt="google_drive_4" src="assets/images/integration/google_drive/4.png"></li>
+                                        <li>
+                                            Now you've to create the credentials. To create this, go to the API's description page. <br />
+                                            <img class="w100p" alt="google_drive_5" src="assets/images/integration/google_drive/5.png"></li>
+                                        <li>
+                                            Select this options from here and click on the <strong>What credentials do I need?</strong> button.<br />
+                                            <img alt="google_drive_6" src="assets/images/integration/google_drive/6.png"></li>
+                                        <li>
+                                            Then you'll get a popup dialog box. <strong>Set up OAuth consent screen.</strong> Click on Set up. <br />
+                                            <img alt="google_drive_7" src="assets/images/integration/google_drive/7.png"></li>
+                                        <li>
+                                            The OAuth consent screen form will be appear then. 
+                                            <br />
+                                            In <b>Publishing status</b>, there has two option. Production and testing.
+                                            <br />
+                                            <b>Production:</b> Your site should be HTTPS for this mode.
+                                            <br />
+                                            <b>Testing:</b> You can use any security protocol (HTTPS/HTTP) in testing mode. But you'll get an another page on authentication for this, which is mentioned in point 13.
+                                            <img class="w100p" alt="google_drive_8" src="assets/images/integration/google_drive/8.png"></li>
+                                        <li>
+                                            Click on <b>EDIT APP</b> button and fill up with your desired information. <br />
+                                            <img class="w100p" alt="google_drive_9" src="assets/images/integration/google_drive/9.png">
+                                            <img class="w100p" alt="google_drive_10" src="assets/images/integration/google_drive/10.png">
+                                        </li>
+                                        <li>
+                                            Click <b>Save and continue</b> button on <b>Scopes</b> and <b>Test users</b> step. And click <b>Back to dashboard</b> from <b>Summary</b> tab. <br />
+                                            Click on the <strong>Credentials</strong> tab now from left panel. Click on <strong>Create credentials</strong> button and select <strong>OAuth client ID</strong>. <br />
+                                            <img class="w100p" alt="google_drive_11" src="assets/images/integration/google_drive/11.png"></li>
+                                        <li>
+                                            Select <strong>Web application</strong> for Application type. In 'Authorized redirect URIs', you should add this url <strong>https://yourdomain.com/index.php/google_api/save_access_token</strong>. You'll find this in your integration setting. <br />
+                                            <img alt="google_drive_11" src="assets/images/integration/google_drive/12.png">
+                                            <img alt="google_drive_11" src="assets/images/integration/google_drive/13.png"></li>
+                                        <li>
+                                            After saving, you'll get the <strong>Client ID</strong> and <strong>Client Secret</strong>. Add them to RISE and click on <strong>Save & authorize</strong>.</li>
+                                        <li>
+                                            If you've selected <b>Testing</b> mode in point <b>8</b>, you'll get this option. Select <b>Continue</b> from here. <br />
+                                            <img alt="google_drive_11" src="assets/images/integration/google_drive/14.png"></li>
+                                        <li>
+                                            On retrieving from API access, please make sure that, status of Google Drive is showing <strong>Authorized</strong>. </li>
+                                    </ol>
+
+                                    <p>That's all! On future, all files will be uploaded into Google Drive.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="google_calendar">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Google Calendar Integration</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can integrate <strong>Google Calendar API</strong> to sync events between your Google Calendar and Events on this app. There has some easy steps to setup.</p>
+                                    <ol class="google-drive-list">
+                                        <li>First, enable Google Calendar API from <strong>Settings>Events</strong>. After enabling this, every users can integrate with their own Google Calendar who have access to the Events module on the app.</li>
+                                        <li>
+                                            To integrate, go to the <a href="https://console.developers.google.com" target="_blank">Google API Console</a> and Create a <strong>project</strong>. <br />
+                                            <img alt="google_calendar_1" src="assets/images/integration/google_calendar/1.png"></li>
+                                        <li>
+                                            Select your project (1) and click on <strong>Enable APIs and Services</strong> (2). <br />
+                                            <img alt="google_calendar_2" src="assets/images/integration/google_calendar/2.png"></li>
+                                        <li>
+                                            Search for <strong>Google Calendar API</strong> and select that. <br />
+                                            <img class="w100p" alt="google_calendar_3" src="assets/images/integration/google_calendar/3.png"></li>
+                                        <li>
+                                            Enable the API. <br />
+                                            <img alt="google_calendar_4" src="assets/images/integration/google_calendar/4.png"></li>
+                                        <li>
+                                            Now you've to create the credentials. To create this, go to the API's description page. <br />
+                                            <img class="w100p" alt="google_calendar_5" src="assets/images/integration/google_calendar/5.png"></li>
+                                        <li>
+                                            Select this options from here and click on the <strong>What credentials do I need?</strong> button.<br />
+                                            <img alt="google_calendar_6" src="assets/images/integration/google_calendar/6.png"></li>
+                                        <li>
+                                            Then you'll get a popup dialog box. <strong>Set up OAuth consent screen.</strong> Click on Set up. <br />
+                                            <img alt="google_calendar_7" src="assets/images/integration/google_calendar/7.png"></li>
+                                        <li>
+                                            The OAuth consent screen form will be appear then. 
+                                            <br />
+                                            In <b>Publishing status</b>, there has two option. Production and testing.
+                                            <br />
+                                            <b>Production:</b> Your site should be HTTPS for this mode.
+                                            <br />
+                                            <b>Testing:</b> You can use any security protocol (HTTPS/HTTP) in testing mode. But you'll get an another page on authentication for this, which is mentioned in point 14.
+                                            <img class="w100p" alt="google_calendar_8" src="assets/images/integration/google_calendar/8.png"></li>
+                                        <li>
+                                            Click on <b>EDIT APP</b> button and fill up with your desired information. <br />
+                                            <img class="w100p" alt="google_calendar_9" src="assets/images/integration/google_calendar/9.png">
+                                            <img class="w100p" alt="google_calendar_10" src="assets/images/integration/google_calendar/10.png">
+                                        </li>
+                                        <li>
+                                            Click <b>Save and continue</b> button on <b>Scopes</b> and <b>Test users</b> step. And click <b>Back to dashboard</b> from <b>Summary</b> tab. <br />
+                                            Click on the <strong>Credentials</strong> tab now from left panel. Click on <strong>Create credentials</strong> button and select <strong>OAuth client ID</strong>. <br />
+                                            <img class="w100p" alt="google_calendar_11" src="assets/images/integration/google_calendar/11.png"></li>
+                                        <li>
+                                            Select <strong>Web application</strong> for Application type. In 'Authorized redirect URIs', you should add this url <strong>https://yourdomain.com/index.php/google_api/save_access_token_of_calendar</strong>. You'll find this in your integration setting. <br />
+                                            <img alt="google_calendar_11" src="assets/images/integration/google_calendar/12.png">
+                                            <img alt="google_calendar_11" src="assets/images/integration/google_calendar/13.png"></li>
+                                        <li>
+                                            After saving, you'll get the <strong>Client ID</strong> and <strong>Client Secret</strong>. Add them to RISE at <strong>Events>Google calendar settings</strong> modal and click on <strong>Save & authorize</strong>.</li>
+                                        <li>
+                                            If you've selected <b>Testing</b> mode in point <b>9</b>, you'll get this option. Select <b>Continue</b> from here. <br />
+                                            <img alt="google_calendar_11" src="assets/images/integration/google_calendar/14.png"></li>
+                                        <li>You'll get your own calendar events always. And you can add any <strong>Special calendar</strong> (like Holidays Calendar). To get Special calendar's ID, click on the <strong>&#8942;</strong> icon just beside the Calendar name and select the <strong>Settings</strong> from the dropdown. Then you'll find the Calendar ID in the settings page.</li>
+                                        <li>
+                                            On retrieving from API access, please make sure that, status of Google Calendar is showing <strong>Authorized</strong>. </li>
+                                    </ol>
+
+                                    <p>That's all! You've successfully integrate with your Google Calendar.</p>
+                                    <p><strong>Note:</strong> After integration, any addition/modification/deletion will effect your Google Calendar instantly. If any of these will happen in your Google Calendar, Cron job will grab those changes and add to RISE. If you will add any <strong>Special calendar</strong>, you can edit/delete those events from RISE but it won't effect your Google Calendar.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="imap">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>IMAP Integration</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You can setup an email address to create the tickets automatically when you receive any emails at that address. To active this, please fill up the necessary informations at Settings&gt;Tickets&gt;IMAP settings. </p>
+                                    <p>
+                                        <strong>Please make sure that, your IMAP access is enabled on your email and after authorization, status of IMAP is showing 'Authorized'.</strong> </p>
+
+                                    <p>   
+                                        <strong>Note:</strong> The system will create tickets based on the unread emails. After creating the ticket, the emails will be marked as read. To get the replies in the same tickets, the system will check the ticket ID in the email subject. If there is no ticket ID in the subject, that will be considered as a new ticket. You can setup the email subject from Settings&gt;Email templates.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="push_notification">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Push Notification</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        We're using <a href="https://pusher.com" target="_blank">Pusher</a> for push notification. To enable this, please follow this instructions step by step: </p>
+                                    <ol>
+                                        <li>
+                                            Login to your <a href="https://pusher.com" target="_blank">Pusher</a> account.</li>
+                                        <li>
+                                            Create a new App from here: <a href="https://dashboard.pusher.com/channels" target="_blank">https://dashboard.pusher.com/channels</a> <br />
+                                            <img alt="pusher_1" src="assets/images/integration/pusher/1.jpg"></li>
+                                        <li>
+                                            On modal window, chose your preferred information. And select <strong>jQuery</strong> for 'front-end tech' and <strong>PHP</strong> for 'back-end tech'. <br />
+                                            <img alt="pusher_2" src="assets/images/integration/pusher/2.jpg"></li>
+                                        <li>
+                                            After creating the app, you'll get the app details page.</li>
+                                        <li>
+                                            Click on <strong>App Keys</strong> from there. <br />
+                                            <img alt="pusher_3" src="assets/images/integration/pusher/3.jpg"></li>
+                                        <li>
+                                            Get the credentials and add to RISE. 
+                                        </li>                                    
+                                    </ol>
+
+                                    <div>Note: You'll get browser notification only when you'll use https server connection, otherwise you'll get app alert notification. Push notification is depends on Web notification. So, to get push notification, please remember to enable web notification from the <a href="#notifications" title="Notifications">Notifications</a> settings.</div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section id="slack">
+                            <div class="card card-default">
+                                <div class="page-title clearfix">
+                                    <h1>Slack</h1>
+                                </div>
+                                <div class="p20">
+                                    <p>
+                                        You could easily integrate <a href="https://slack.com" target="_blank">Slack</a> to get notification. To enable this, just follow this steps: </p>
+                                    <ol>
+                                        <li>
+                                            Login to your <a href="https://slack.com" target="_blank">Slack</a> account.</li>
+                                        <li>
+                                            Click on 'Create new App' button from here: <a href="https://api.slack.com/apps" target="_blank">Slack Apps</a>.</li>
+                                        <li>
+                                            On modal window, enter your preferred App name. And select your workspace. <br />
+                                            <img alt="slack_1" src="assets/images/integration/slack/1.jpg"></li>
+                                        <li>
+                                            After creating the App, you'll get the App details page. You could configure the App from there like App icon and others.</li>
+                                        <li>
+                                            Click on <strong>Add features and functionality</strong>, then <strong>Incoming Webhooks</strong>. <br />
+                                            <img alt="slack_2" src="assets/images/integration/slack/2.jpg"></li>
+                                        <li>
+                                            Activate <strong>Incoming Webhook</strong>.<br />
+                                            <img alt="slack_3" src="assets/images/integration/slack/3.jpg"></li>
+                                        <li>
+                                            Click on <strong>Add New Webhook to Workspace</strong>.<br />
+                                            <img alt="slack_4" src="assets/images/integration/slack/4.jpg"></li>
+                                        <li>
+                                            Then a new page will be appeared. Select your <strong>channel</strong> where you want to get the messages.</li>
+                                        <li>
+                                            After submit, you'll be redirected to the previous page again. You'll find ther Webhook URL there.<br />
+                                            <img alt="slack_5" src="assets/images/integration/slack/5.jpg"></li>
+                                        <li>
+                                            Copy the URL and add to RISE. 
+                                        </li>                                    
+                                    </ol>
+                                    </section>
+                                    <section id="bitbucket">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>Bitbucket</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <p>
+                                                    You can enable Bitbucket commit logs in your tasks. To get setup, please follow this steps: </p>
+                                                <ol>
+                                                    <li>
+                                                        Login to your <a href="https://bitbucket.org/" target="_blank">Bitbucket</a> account.</li>
+                                                    <li>
+                                                        Go to your <strong>Repository</strong>.</li>
+                                                    <li>
+                                                        Locate <strong>Repository settings</strong>. <br />
+                                                        <img alt="bitbucket_1" src="assets/images/integration/bitbucket/1.png"></li>
+                                                    <li>
+                                                        Locate <strong>Webhooks</strong> under <strong>WORKFLOW</strong>. <br />
+                                                        <img alt="bitbucket_2" src="assets/images/integration/bitbucket/2.png"></li>
+                                                    <li>
+                                                        Click on <strong>Add webhook</strong>.</li>
+                                                    <li>
+                                                        Go to your RISE Settings > App Settings > Integration > Bitbucket.</li>
+                                                    <li>
+                                                        Enable it: <strong>Enable bitbucket commit logs in tasks</strong>.</li>
+                                                    <li>
+                                                        Save setting.</li>
+                                                    <li>
+                                                        Copy <strong>Webhook listener link</strong> and paste here: <br />
+                                                        <img alt="bitbucket_3" src="assets/images/integration/bitbucket/3.png"></li>
+                                                    <li>
+                                                        Click on Save.</li>                                  
+                                                </ol>
+
+                                                <div><strong>Note:</strong> To link the commits with tasks, there should be a <strong># and task ID</strong> at the end of each commit messages. Ex: This is a commit of Task #10.</div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="github">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>GitHub</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <p>
+                                                    You can enable GitHub commit logs in your tasks. To get setup, please follow this steps: </p>
+                                                <ol>
+                                                    <li>
+                                                        Login to your <a href="https://github.com/" target="_blank">GitHub</a> account.</li>
+                                                    <li>
+                                                        Go to your <strong>Repository</strong>.</li>
+                                                    <li>
+                                                        Locate <strong>Settings</strong>. <br />
+                                                        <img alt="github_1" src="assets/images/integration/github/1.png"></li>
+                                                    <li>
+                                                        Locate <strong>Webhooks</strong>. <br />
+                                                        <img alt="github_2" src="assets/images/integration/github/2.png"></li>
+                                                    <li>
+                                                        Click on <strong>Add webhook</strong>.</li>
+                                                    <li>
+                                                        Go to your RISE Settings > App Settings > Integration > GitHub.</li>
+                                                    <li>
+                                                        Enable it: <strong>Enable github commit logs in tasks</strong>.</li>
+                                                    <li>
+                                                        Save setting.</li>
+                                                    <li>
+                                                        Copy <strong>Webhook listener link</strong> and paste here: <br />
+                                                        <img alt="github_3" src="assets/images/integration/github/3.png"></li>
+                                                </ol>
+
+                                                <div><strong>Note:</strong> To link the commits with tasks, there should be a <strong># and task ID</strong> at the end of each commit messages. Ex: This is a commit of Task #10.</div>
+
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="help_and_support">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>Help & Support</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <p>You can add <strong>Help</strong> and <strong>Knowledge base</strong> articles for your team members and clients. Team members could see all help and knowledge based articles but the clients will only see the knowledge based articles.</p>
+
+                                                <p>You can create or manage <strong>Categories</strong> and <strong>Articles</strong> for both Help and Knowledge base under <strong>Help & Support</strong> menu.</p>
+
+                                                <p>Once you'll add Categories and Articles, they'll be appear by category-wise on Help and Knowledge base.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="upgrading_guide">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>Upgrading Guide</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <p>
+                                                    Please note that you can only download the updates if you have a valid purchase code. Enter the valid purchase code in general settings of this application and save the settings.</p>
+                                                <div class="alert alert-error">
+                                                    Please backup all files and database before start the installation of updates.</div>
+                                                <p>
+                                                    There is a very&nbsp;easy way to update your application.</p>
+                                                <p>
+                                                    To install any updates go to <strong>Settings&gt;Updates&nbsp;</strong>of the application. The download will be start automatically once any new update is available. Once the download is completed you can install the updates by clicking on the link. That&rsquo;s&nbsp;all!</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="application_structure">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>Application Structure</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <p>
+                                                    <img alt="application-structure" src="assets/images/application-structure.jpg"></p>
+                                                <ol>
+                                                    <li>
+                                                        The config folder&nbsp;contains all configuration related files.</li>
+                                                    <li>
+                                                        The controllers folder contains all business logic of the application.</li>
+                                                    <li>
+                                                        If you would like to add any new language then create a new folder and add the custom_lang.php and default_lang.php. Please keep it in mind that you shouldn&#39;t change anything in the default_lang.php. If you would like to add/update any language, then update the custom_lang.php. When you install any new updates then the defult_lang.php could be change. So update your custom_lang.php manually (if required) after installing new updates. To change the language of the application, go to the Settings&gt;General settings section and choose your language then save the settings.</li>
+                                                    <li>
+                                                        Views folder contains all the view related files.</li>
+                                                    <li>
+                                                        Assets folder contains all css, js and images of the application.</li>
+                                                    <li>
+                                                        Don&#39;t change anything in system folder. It&#39;s contains the core functions of the application.</li>
+                                                </ol>
+                                                <p>
+                                                    To learn more about the application you can learn the <strong>codeigniter&nbsp;</strong>framework.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="language">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>Language</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <strong>How to add new language?</strong>
+                                                <ol>
+                                                    <li>Please go to \app\Language directory </li>
+                                                    <li>
+                                                        Copy the english language folder and paste (set the directory name for your language)</li>
+                                                    <li>
+                                                        Add your translations in default_lang.php</li>
+                                                    <li>
+                                                        Finally set this language in application from Settings>General Settings>Language.</li>
+                                                </ol>
+                                                <strong>How to improve existing language?</strong>
+                                                <ol>
+                                                    <li>Please go to \app\Language\[your language] directory </li>
+                                                    <li>
+                                                        Copy the default_lang.php and paste all to custom_lang.php </li>
+                                                    <li>
+                                                        Change the custom_lang.php.</li>
+                                                </ol>
+                                                <strong>How to share my language?</strong>
+                                                <ol>
+                                                    <li> Please update your language in <a href="https://github.com/fairsketch/RISE-Translation">Github</a></li>
+                                                    <li>
+                                                        Or email to <a href="mailto:support@fairsketch.com" target="_top">support@fairsketch.com</a> </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="development">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>Development</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <strong>How to add new pages?</strong>
+                                                <ol>
+                                                    <li> If you want to add any restricted page (login required?), please extend the controller from Security_Controller</li>
+                                                    <li> If you want to add any public page (login not required), extend the controller from App_Controller</li>
+                                                </ol>
+                                                <strong>How to add new menu item in left sidebar?</strong>
+                                                <ol>
+                                                    <li> You can add menu item from this file \app\Views\includes\left_menu.php</li>
+                                                </ol>
+                                                <strong>How to save?</strong>
+                                                <ol>
+                                                    <li> All models are extended from Crud_model (\app\Models\Crud_model.php)</li>
+                                                    <li> Please check the add/edit/remove and basic i/o functions there.</li>
+                                                </ol>
+                                                <strong>How to create the table list view?</strong>
+                                                <ol>
+                                                    <li> Please see example in any page where table shown.</li>
+                                                    <li> The table list is using datatable plugin but we've developed a library to manage it easily. Please have a look at  \assets\js\app.js</li>
+                                                    <li> In application, we are using the assets\js\app.min.js</li>
+                                                </ol>
+                                                <strong id='enable-error-log'>How to enable error log?</strong>
+                                                <ol>
+                                                    <li> Open \app\Config\Logger.php line #35 and change the line to: public $threshold = 5;</li>
+                                                    <li> Do the actions which you want to debug. Then find the log in \writable\logs\ directory.;</li>
+                                                    <li> <b>Note</b>: Once you've completed the debugging, please remember to revert the settings back. Otherwise it'll create unnecessary log in your server and waste space. To revert:</li>
+                                                    <li> Open \app\Config\Logger.php line #35 and change the line to: public $threshold = 0;</li>
+
+                                                </ol>
+                                                <strong>How to enable Development mode?</strong>
+                                                <ol>
+                                                    <li> Create a <b>.env</b> in the root of your directory and write this content;
+                                                        <textarea style='display:block; height: 30px; width: 300px; resize: none;'>CI_ENVIRONMENT = development</textarea>
+                                                    </li>
+                                                    <li> Do the actions which you want to debug. If there is any error you'll see them in your browser;</li>
+                                                    <li> <b>Note</b>: Once you've completed the debugging, and you don't want this mode, just delete \.env file;</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="thanks">
+                                        <div class="card card-default">
+                                            <div class="page-title clearfix">
+                                                <h1>Thanks</h1>
+                                            </div>
+                                            <div class="p20">
+                                                <p>
+                                                    Thanks again for purchasing this application. We are trying to add and improve new features regularly. Hopefully you'll enjoy using the app. If you have any query or suggestion, please send an email to <a href="mailto:support@fairsketch.com" target="_top">support@fairsketch.com</a></p>
+                                                <p>
+                                                    Best wishes<br>
+                                                    Fairsketch Team</p>
+                                                <p>
+                                                    <a href="http://codecanyon.net/user/fairsketch">http://codecanyon.net/user/fairsketch</a></p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <div style="height:500px;"></div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                </body>
+                </html>

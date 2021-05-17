@@ -1,0 +1,124 @@
+body{
+    background-color: #BCBDBD;
+    color: #4e5e6a;
+    font-size: 15px !important;
+    transition: 5s all;
+}
+.install-box {
+    max-width: 900px;
+    margin: 30px auto;
+}
+.card{
+    border: 0;
+}
+.card-header h2{
+    margin: 20px 0;                
+}
+.card-install>.card-header{
+    background-color: #1d2632;
+    color: #93a4c3;
+    border-bottom: none;
+}
+.card-footer{
+    border-top: none;
+}
+.icon{
+    height: 16px;
+    width: 16px;
+    margin-top: -4px;
+}
+.status-icon{
+    height: 18px;
+    width: 18px;
+    margin-top: -3px;
+}
+svg.feather.feather-check-circle.status-icon, .status{
+    color: #00b393;
+}
+svg.feather.feather-x-circle.status-icon{
+    color: #d73b3b;
+}
+svg.status{
+    margin-top: -3px;
+}
+table{
+    width: 100%;
+}
+th, td{
+    padding:5px 0;
+}
+.section{
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.tab-content{
+    margin-top: 20px;
+}
+hr{
+    margin: 10px 0 0;
+}
+.tab-title{
+    background: #f2f3f4;
+    padding:15px;
+    border-bottom: none;
+}
+.tab-title.active{
+    background: #00b393;
+    color: #fff;
+}
+.form-group{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.no-padding{
+    padding: 0;
+}
+.btn-info{
+    background-color: #24BFA4;
+    border: none;
+    width: 100%;
+    padding: 15px;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active
+{
+    background-color: #00b3a2 !important;
+    border: none !important;
+}
+.btn-info[disabled]{
+    background-color: #24BFA4 !important;
+    border: none !important;
+}
+label{
+    font-weight: normal;
+}
+.alert{
+    border-radius: 0;
+}
+.loader{
+    background: url('../assets/images/loader2.gif') no-repeat;
+    height: 16px;
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 16px;
+}
+.go-to-login-page,
+.go-to-login-page:active,
+.go-to-login-page:focus{
+    color: #00b3a2; 
+    text-decoration: none;
+}
+
+.go-to-login-page:hover{
+    color: #13B195; 
+    text-decoration: none;
+}
+.hide {
+    display: none!important;
+}
+.mr10{
+    margin-right: 10px;
+}

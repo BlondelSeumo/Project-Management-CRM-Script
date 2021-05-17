@@ -1,0 +1,96 @@
+.sidebar-scroll, #timeline .post-content .post-date span {
+  background: #839192; }
+
+.sidebar-menu li a {
+  color: rgba(255, 255, 255, 0.8); }
+  .sidebar-menu li a:active, .sidebar-menu li a:hover, .sidebar-menu li a:focus {
+    color: #FFF !important;
+    background-color: rgba(255, 255, 255, 0.1); }
+.sidebar-menu li ul li a {
+  color: rgba(255, 255, 255, 0.8); }
+  .sidebar-menu li ul li a:hover {
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.1); }
+.sidebar-menu li.active > a {
+  color: #FFF !important;
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.sidebar-toggled .sidebar-menu li:hover {
+  background-color: #839192; }
+
+.nav-tabs li a:hover, .nav-tabs li a:focus, .nav-tabs li a:active {
+  color: #839192 !important; }
+.nav-tabs li .active, .nav-tabs li.active {
+  color: #839192 !important;
+  border-color: #839192 !important; }
+.nav-tabs li:not(.title-tab):after {
+  background-color: #839192; }
+
+.list-group-item.active {
+  background: #839192;
+  border-color: #839192; }
+  .list-group-item.active:focus, .list-group-item.active:hover {
+    background: #839192;
+    border-color: #839192; }
+
+.btn-primary {
+  background-color: #839192;
+  border-color: #839192; }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #717d7e;
+    border-color: #717d7e;
+    color: #FFF; }
+
+.bg-success {
+  background-color: #717d7e !important; }
+
+a {
+  color: #717d7e; }
+  a:hover, a:focus, a:active {
+    color: #4d5656; }
+
+.circle-done {
+  color: #839192; }
+
+.app-alert.alert-success {
+  background-color: #717d7e;
+  color: #fff; }
+
+.bg-dark-success {
+  background: #4d5656; }
+
+.dataTable tbody tr.active td, .dataTable tbody tr.active:hover td {
+  background: #839192 !important; }
+
+td.dropdown-option button:hover {
+  background: #839192;
+  border-color: #839192; }
+
+.select2-results .select2-highlighted {
+  background-color: #839192; }
+
+.datepicker table tr td.active.active {
+  background: #839192;
+  border-color: #839192; }
+  .datepicker table tr td.active.active:hover {
+    background: #839192;
+    border-color: #839192; }
+.datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active {
+  background: #839192;
+  border-color: #839192; }
+  .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:hover.active {
+    background: #839192;
+    border-color: #839192; }
+.datepicker table tr td span.active.active:hover {
+  background: #839192;
+  border-color: #839192; }
+
+.atwho-view .cur, .note-hint-group .active, .note-hint-item:hover {
+  background-color: #839192 !important; }
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1); }
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2); }
+.sidebar-scroll::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 0.2); }

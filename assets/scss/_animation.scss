@@ -1,0 +1,74 @@
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes slidedown {
+    from {top: -100%;}
+    to {top: 0;}
+}
+
+@-webkit-keyframes slidedown { 
+    from {top: -100%;}
+    to {top: 0;}
+} 
+
+@keyframes line {
+    0% {
+        width: 35px;
+        left: 0%;
+    }
+    50% {
+        width: 100px;
+        left: 25%;
+    }
+    100% {
+        left: 88%;
+        width: 35px;
+    }
+}
+@-webkit-keyframes line {
+    0% {
+        width: 35px;
+        left: 0%;
+    }
+    50% {
+        width: 100px;
+        left: 25%;
+    }
+    100% {
+        left: 88%;
+        width: 35px;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
+
+/*animated clock*/
+@keyframes animatedClockSecRotate {
+    0% {
+        transform: rotate(0deg) translate(0, -2px);
+    }
+    100% {
+        transform: rotate(360deg) translate(0, -2px);
+    }
+}
+@-webkit-keyframes animatedClockSecRotate {
+    0% {
+        transform: rotate(0deg) translate(0, -2px);
+    }
+    100% {
+        transform: rotate(360deg) translate(0, -2px);
+    }
+}

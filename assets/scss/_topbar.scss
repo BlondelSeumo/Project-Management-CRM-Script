@@ -1,0 +1,47 @@
+.navbar-nav {
+    .nav-link {
+        padding: 15px 15px !important;
+    }
+
+    .nav-item{
+        #user-dropdown{
+            padding: 10px 14px !important;
+        }
+        .dropdown-toggle{
+            &:after{
+                display: none !important;
+            }
+        }
+    }
+
+    .form-check{
+        margin-left: 1em;
+
+        .form-check-label, .form-check-input{
+            color: #4e5e6a;
+            cursor: pointer;
+        }
+    }
+
+    .sidebar-toggle-btn{
+        padding-left: .8rem !important;
+    }
+}
+
+.navbar-custom{
+    background: $white;
+    top: 0;
+    right: 0;
+    left: 250px;
+    min-height: 65px;
+}
+
+.logo-collapsed{
+    display: none;
+}
+
+.language-dropdown{
+    height: 300px;
+    overflow-y: scroll;
+    min-width: 170px;
+}
